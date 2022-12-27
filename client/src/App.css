@@ -1,0 +1,23 @@
+a:active,
+a:link,
+a:visited,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
+  .image {
+    /* width: 100vw; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
